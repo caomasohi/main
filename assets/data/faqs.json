@@ -1,0 +1,68 @@
+[
+  {
+    "id": "faq-gen-01",
+    "category": "General",
+    "question": "What is MASOHI PRIVATE LIMITED and what core challenge does it address?",
+    "answer": "MASOHI is a technology-enabled workforce development, training, and internship enablement company. We address the gap between formal academic curricula and industry expectations by delivering structured, project-driven training, expert mentorship, internship enablement for students, faculty upskilling (FDP/QIP/PDP), and institutional collaboration models."
+  },
+  {
+    "id": "faq-gen-02",
+    "category": "General",
+    "question": "How is MASOHI aligned with NEP 2020 and Outcome-Based Education?",
+    "answer": "MASOHI aligns with national education priorities including the National Education Policy (NEP 2020), Skill India, and Digital India by embedding experiential learning, mandatory internship readiness, multidisciplinary technology exposure, and faculty pedagogical upskilling into institutional workflows."
+  },
+  {
+    "id": "faq-stu-01",
+    "category": "Students",
+    "question": "How do MASOHI student programs work?",
+    "answer": "Our student journey follows a structured 7-step pathway: Discover → Learn → Practice → Build → Get Mentored → Intern → Become Career Ready. Students learn industry-relevant tools through live labs, build real-world portfolio projects, receive technical mentorship from practitioners, and prepare for guided internship opportunities."
+  },
+  {
+    "id": "faq-stu-02",
+    "category": "Students",
+    "question": "What is the difference between Training and Internship Enablement at MASOHI?",
+    "answer": "Training provides the rigorous foundational and practical technology competencies required by modern industry. Internship Enablement builds on this foundation by providing project portfolio guidance, industry mentor reviews, workplace readiness coaching, and guided pathways to connect students with meaningful internship projects."
+  },
+  {
+    "id": "faq-stu-03",
+    "category": "Students",
+    "question": "Does MASOHI guarantee 100% placement or job offers?",
+    "answer": "No. In alignment with our commitment to transparency and credibility, MASOHI does not make unverifiable claims such as '100% placement guarantees.' Instead, we focus on genuine skill development, verifiable portfolio projects, practical problem solving, and career preparation that significantly enhances student employability."
+  },
+  {
+    "id": "faq-fac-01",
+    "category": "Faculty",
+    "question": "What faculty development programs does MASOHI offer?",
+    "answer": "MASOHI conducts Faculty Development Programmes (FDPs), Quality Improvement Programmes (QIPs), Professional Development Programmes (PDPs), hands-on technical workshops, and pedagogy seminars in emerging technologies (AI, Cloud, Full Stack, Data Analytics) and Outcome-Based Education frameworks."
+  },
+  {
+    "id": "faq-fac-02",
+    "category": "Faculty",
+    "question": "How can a department or faculty coordinator request a customized FDP?",
+    "answer": "Faculty coordinators and department heads can submit a request through our Faculty Development portal or Contact form. Our academic solutions team works with your institution to customize curriculum, lab setups, schedule, and learning outcomes."
+  },
+  {
+    "id": "faq-ins-01",
+    "category": "Institutions",
+    "question": "How does MASOHI partner with colleges and universities?",
+    "answer": "We collaborate with academic leadership, Training & Placement (T&P) cells, and IQAC committees to implement campus-wide internship enablement, co-delivered skill tracks, project-based learning labs, faculty upskilling, and industry immersion sessions."
+  },
+  {
+    "id": "faq-ins-02",
+    "category": "Institutions",
+    "question": "Can MASOHI programs be integrated into semester credit requirements?",
+    "answer": "Yes. Our programs are designed to satisfy university internship guidelines, elective skill tracks, and NEP 2020 experiential learning mandates with documented attendance, project evaluations, and mentor rubrics."
+  },
+  {
+    "id": "faq-ind-01",
+    "category": "Industry",
+    "question": "How can corporate and industry partners collaborate with MASOHI?",
+    "answer": "Industry partners can engage with MASOHI by offering guided internship opportunities, sponsoring capstone project problems, conducting guest expert sessions, mentoring student cohorts, advising on curriculum relevance, and accessing a pre-vetted pipeline of project-ready talent."
+  },
+  {
+    "id": "faq-ind-02",
+    "category": "Industry",
+    "question": "What is the cost for companies to become an industry partner?",
+    "answer": "We offer flexible partnership models ranging from collaborative project mentoring to structured talent incubation pipelines. Please reach out via our Industry Collaboration page to discuss custom engagement frameworks."
+  }
+]

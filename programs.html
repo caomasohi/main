@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programs & Courses Catalogue | MASOHI PRIVATE LIMITED</title>
+  <meta name="description" content="Explore industry-aligned training programs in AI, Cloud Computing, Full Stack Development, Data Science, and Cybersecurity with MASOHI.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://masohi.in/programs.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="navbar" role="banner">
+    <div class="container navbar-container">
+      <a href="index.html" class="brand-logo" aria-label="MASOHI Home">
+        <div class="logo-symbol">M</div>
+        <div>
+          <span>MASOHI</span>
+          <span class="logo-tag">Private Limited</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" role="navigation">
+        <a href="about.html" class="nav-link">About</a>
+        <a href="students.html" class="nav-link">Students</a>
+        <a href="faculty.html" class="nav-link">Faculty</a>
+        <a href="institutions.html" class="nav-link">Institutions</a>
+        <a href="industry.html" class="nav-link">Industry</a>
+        <a href="programs.html" class="nav-link active">Programs</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm" data-modal-target="modal-enquiry" data-modal-title="Enquire About Programs">
+          Enquire Now
+        </button>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-backdrop"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Menu">
+    <div class="mobile-drawer-header">
+      <div class="brand-logo">
+        <div class="logo-symbol">M</div>
+        <span>MASOHI</span>
+      </div>
+      <button class="mobile-drawer-close" aria-label="Close menu" style="background: none; border: none; font-size: 1.5rem;">✕</button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About Us</a>
+      <a href="students.html" class="nav-link">Student Programs</a>
+      <a href="internships.html" class="nav-link">Internship Enablement</a>
+      <a href="faculty.html" class="nav-link">Faculty Development</a>
+      <a href="institutions.html" class="nav-link">Institutional Solutions</a>
+      <a href="industry.html" class="nav-link">Industry Collaboration</a>
+      <a href="programs.html" class="nav-link active">Courses & Programs</a>
+      <a href="events.html" class="nav-link">Events & Workshops</a>
+      <a href="faqs.html" class="nav-link">FAQs</a>
+      <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+  </aside>
+
+  <main id="main-content">
+    <!-- Header -->
+    <section class="section section-dark" style="padding-top: calc(76px + var(--space-12)); padding-bottom: var(--space-12);">
+      <div class="container text-center" style="max-width: 820px;">
+        <div class="section-eyebrow">Programmes & Specializations</div>
+        <h1 style="color: #FFFFFF; margin-bottom: var(--space-4);">
+          Industry-Aligned <span class="text-gradient">Training Programmes</span>
+        </h1>
+        <p class="text-lead" style="color: var(--color-text-light);">
+          Explore rigorous, project-centric technology courses designed to bridge theoretical concepts with production-ready software development, analytics, and infrastructure practices.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filter & Catalogue Section -->
+    <section class="section">
+      <div class="container">
+        <!-- Filter Toolbar -->
+        <div class="filter-toolbar">
+          <div class="filter-search-row">
+            <div class="search-input-wrapper">
+              <span class="search-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              </span>
+              <input type="text" id="program-search" placeholder="Search by title, technology (e.g. Python, React, Cloud, AI), or skills..." aria-label="Search Programs">
+            </div>
+          </div>
+
+          <div class="filter-category-tabs" role="tablist" aria-label="Program categories">
+            <button class="category-tab active" data-category-tab="All">All Categories</button>
+            <button class="category-tab" data-category-tab="Artificial Intelligence">Artificial Intelligence</button>
+            <button class="category-tab" data-category-tab="Full Stack Development">Full Stack Development</button>
+            <button class="category-tab" data-category-tab="Data Science">Data Science</button>
+            <button class="category-tab" data-category-tab="Cloud Computing">Cloud Computing</button>
+            <button class="category-tab" data-category-tab="Cybersecurity">Cybersecurity</button>
+            <button class="category-tab" data-category-tab="Business Analytics">Business Analytics</button>
+            <button class="category-tab" data-category-tab="Emerging Technologies">Embedded & IoT</button>
+            <button class="category-tab" data-category-tab="Employability Skills">Employability Skills</button>
+          </div>
+        </div>
+
+        <!-- Result Status -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-6);">
+          <span id="programs-count" style="font-size: var(--font-size-sm); color: var(--color-text-muted); font-weight: var(--font-weight-medium);">Loading programs...</span>
+          <span class="badge badge-emerald">Live Capstone + Mentorship Included</span>
+        </div>
+
+        <!-- Dynamic Grid -->
+        <div class="grid grid-cols-3" id="programs-grid">
+          <!-- Dynamically populated by assets/js/programs.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Program Details Modal -->
+  <div class="modal-backdrop" id="modal-program-details" role="dialog" aria-modal="true">
+    <div class="modal-container" style="max-width: 680px;">
+      <button class="modal-close" data-modal-close aria-label="Close details modal">✕</button>
+      
+      <div style="margin-bottom: var(--space-4);">
+        <span class="badge badge-blue" id="modal-prog-cat">Category</span>
+        <h2 id="modal-prog-title" style="margin-top: 0.5rem; font-size: 1.5rem;">Program Title</h2>
+        <p id="modal-prog-desc" style="font-size: 0.95rem; color: var(--color-text-body); margin-top: 0.75rem; line-height: 1.6;"></p>
+      </div>
+
+      <div class="grid grid-cols-3" style="gap: var(--space-3); background: var(--color-bg-muted); padding: var(--space-4); border-radius: var(--radius-md); margin-bottom: var(--space-6);">
+        <div>
+          <span style="font-size: 0.7rem; text-transform: uppercase; color: var(--color-text-muted); font-weight: 700;">Duration</span>
+          <p id="modal-prog-duration" style="font-size: 0.9rem; font-weight: 600; margin: 0; color: var(--color-primary-950);">-</p>
+        </div>
+        <div>
+          <span style="font-size: 0.7rem; text-transform: uppercase; color: var(--color-text-muted); font-weight: 700;">Target Level</span>
+          <p id="modal-prog-level" style="font-size: 0.9rem; font-weight: 600; margin: 0; color: var(--color-primary-950);">-</p>
+        </div>
+        <div>
+          <span style="font-size: 0.7rem; text-transform: uppercase; color: var(--color-text-muted); font-weight: 700;">Learning Mode</span>
+          <p id="modal-prog-mode" style="font-size: 0.9rem; font-weight: 600; margin: 0; color: var(--color-primary-950);">-</p>
+        </div>
+      </div>
+
+      <div style="margin-bottom: var(--space-4);">
+        <h4 style="font-size: 1rem; margin-bottom: 0.5rem;">Core Technologies & Competencies:</h4>
+        <div id="modal-prog-skills" style="display: flex; flex-wrap: wrap; gap: 0.5rem;"></div>
+      </div>
+
+      <div style="margin-bottom: var(--space-6);">
+        <h4 style="font-size: 1rem; margin-bottom: 0.5rem;">Integrated Capstone Projects:</h4>
+        <ul id="modal-prog-projects" style="list-style: none;"></ul>
+      </div>
+
+      <div style="display: flex; gap: var(--space-3); justify-content: flex-end; border-top: 1px solid var(--color-border-subtle); padding-top: var(--space-4);">
+        <button class="btn btn-secondary btn-sm" data-modal-close>Close</button>
+        <button class="btn btn-primary btn-sm" id="modal-prog-cta" data-modal-target="modal-enquiry" data-modal-title="Enquire About Program" data-modal-close>
+          Enquire About This Program
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo" style="color: #FFFFFF;">
+            <div class="logo-symbol">M</div>
+            <span>MASOHI</span>
+          </div>
+          <p>MASOHI PRIVATE LIMITED connects education with employability through structured training, practical learning, mentorship, internship enablement, and faculty development.</p>
+          <div class="footer-social-placeholders">
+            <span class="social-pill">[LinkedIn]</span>
+            <span class="social-pill">[Twitter / X]</span>
+            <span class="social-pill">[YouTube]</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Students</h4>
+          <div class="footer-links">
+            <a href="students.html">Student Pathway</a>
+            <a href="programs.html">Programs & Courses</a>
+            <a href="internships.html">Internship Enablement</a>
+            <a href="events.html">Student Workshops</a>
+            <a href="faqs.html">Student FAQs</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Institutions & Faculty</h4>
+          <div class="footer-links">
+            <a href="institutions.html">Institutional Solutions</a>
+            <a href="faculty.html">Faculty Development (FDP)</a>
+            <a href="industry.html">Industry Collaboration</a>
+            <a href="events.html">Academic Events & QIP</a>
+            <a href="faqs.html">Institutional FAQs</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Company</h4>
+          <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms & Conditions</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© <span data-year>2026</span> <strong>MASOHI PRIVATE LIMITED</strong>. All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms & Conditions</a>
+          <a href="cookies.html">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Universal Lead Modal -->
+  <div class="modal-backdrop" id="modal-enquiry" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button class="modal-close" data-modal-close aria-label="Close modal">✕</button>
+      <div style="margin-bottom: var(--space-4);">
+        <span class="badge badge-blue">Program Enquiry</span>
+        <h3 data-modal-dynamic-title style="margin-top: 0.5rem;">Enquire About Program</h3>
+        <p class="text-sm">Submit your details to receive syllabus and batch registration details.</p>
+      </div>
+
+      <form data-validate-form novalidate>
+        <input type="hidden" name="context" value="Programs Page Enquiry">
+        <div class="form-group">
+          <label class="form-label">Full Name <span class="required">*</span></label>
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+          <span class="form-error-text" data-error-for="name">Please enter your name.</span>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Email <span class="required">*</span></label>
+            <input type="email" name="email" class="form-control" placeholder="name@domain.com" required>
+            <span class="form-error-text" data-error-for="email">Valid email is required.</span>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone <span class="required">*</span></label>
+            <input type="tel" name="phone" class="form-control" placeholder="+91 98765 43210" required>
+            <span class="form-error-text" data-error-for="phone">Valid phone number is required.</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">I am a:</label>
+          <select name="audience" class="form-control">
+            <option value="Student">Student (UG/PG)</option>
+            <option value="Faculty">Faculty Member</option>
+            <option value="Institution">College / University Lead</option>
+            <option value="Industry">Industry Professional / HR</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">College / Organization</label>
+          <input type="text" name="organization" class="form-control" placeholder="Institution / Company Name">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message / Query</label>
+          <textarea name="message" rows="2" class="form-control" placeholder="Any specific questions regarding schedule or curriculum..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Enquiry</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/programs.js"></script>
+  <script src="assets/js/forms.js"></script>
+</body>
+</html>

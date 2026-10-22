@@ -1,0 +1,37 @@
+[
+  {
+    "id": "event-fdp-cyber-security-2026",
+    "title": "Faculty Development Programme (FDP): Cyber Security in Practice — From Fundamentals to Real-World Applications",
+    "type": "Faculty Development Programme (FDP)",
+    "audience": "Faculty, Research Scholars & Academic Personnel",
+    "date": "2026-10-26",
+    "displayDate": "Oct 26 - 31, 2026",
+    "day": "26",
+    "month": "OCT",
+    "duration": "6 Days (5:00 PM – 6:30 PM IST Daily)",
+    "mode": "Online (Virtual)",
+    "venue": "Virtual Interactive Learning Suite (CIC & MASOHI)",
+    "description": "Six-day National Faculty Development Programme organised by MASOHI PRIVATE LIMITED, incubated at CHRIST Incubation Centre, CHRIST (Deemed to be University), Bengaluru. Featuring 10 practical modules covering CIA triad, governance, cryptography, OS hardening, web security, threat monitoring, and ethical hacking.",
+    "resourcePerson": {
+      "name": "Dr Sandeep J",
+      "designation": "Associate Professor, Department of Computer Science",
+      "institution": "CHRIST (Deemed to be University), Bangalore"
+    },
+    "topics": [
+      "Module 1 & 2: Introduction to Cyber Security & Industry Standards",
+      "Module 3 & 4: Governance & Cryptography and Security",
+      "Module 5: System Security & OS Hardening",
+      "Module 6: Web Application Security & OWASP Top 10",
+      "Module 7 & 8: Threat Monitoring & Security Tools",
+      "Module 9 & 10: Ethical Hacking & Industrial Solutions"
+    ],
+    "posters": {
+      "overview": "assets/images/cyber-security-fdp-overview.png",
+      "schedule": "assets/images/cyber-security-fdp-schedule.png"
+    },
+    "registerUrl": "https://forms.gle/H2JEPY3nxuXXVB9Z6",
+    "queriesEmail": "connect.masohi@gmail.com",
+    "status": "Registration Open",
+    "isFeatured": true
+  }
+]

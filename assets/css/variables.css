@@ -1,0 +1,150 @@
+/* ==========================================================================
+   MASOHI PRIVATE LIMITED — DESIGN TOKENS & CSS VARIABLES
+   ========================================================================== */
+
+:root {
+  /* Brand Primary Colors (Deep Navy / Midnight Blue) */
+  --color-primary-950: #070D1E;
+  --color-primary-900: #0B132B;
+  --color-primary-850: #101B3B;
+  --color-primary-800: #1C2541;
+  --color-primary-700: #26365C;
+  --color-primary-600: #3A506B;
+
+  /* Brand Secondary Colors (Electric / Royal Blue) */
+  --color-brand-600: #1D4ED8;
+  --color-brand-500: #2563EB;
+  --color-brand-400: #3B82F6;
+  --color-brand-300: #60A5FA;
+  --color-brand-100: #DBEAFE;
+  --color-brand-50:  #EFF6FF;
+
+  /* Accent & Highlight Colors (Teal / Cyan / Emerald) */
+  --color-accent-600: #0891B2;
+  --color-accent-500: #06B6D4;
+  --color-accent-400: #22D3EE;
+  --color-accent-100: #CFFAFE;
+  --color-accent-50:  #ECFEFF;
+
+  --color-success-600: #059669;
+  --color-success-500: #10B981;
+  --color-success-50:  #ECFDF5;
+
+  --color-warning-500: #F59E0B;
+  --color-warning-50:  #FFFBEB;
+
+  --color-error-500:   #EF4444;
+  --color-error-50:    #FEF2F2;
+
+  /* Neutral Surface & Background Colors */
+  --color-bg-light:       #F8FAFC;
+  --color-bg-white:       #FFFFFF;
+  --color-bg-card-light:  #FFFFFF;
+  --color-bg-card-hover:  #F1F5F9;
+  --color-bg-muted:       #F1F5F9;
+  --color-bg-subtle:      #E2E8F0;
+
+  /* Dark Surface Colors */
+  --color-bg-dark:        #0B132B;
+  --color-bg-dark-card:   #101B3B;
+  --color-bg-dark-glass:  rgba(16, 27, 59, 0.85);
+
+  /* Typography Colors */
+  --color-text-main:      #0F172A;
+  --color-text-body:      #334155;
+  --color-text-muted:     #64748B;
+  --color-text-light:     #94A3B8;
+  --color-text-white:     #FFFFFF;
+  --color-text-brand:     #2563EB;
+
+  /* Borders & Dividers */
+  --color-border-subtle:  #E2E8F0;
+  --color-border-medium:  #CBD5E1;
+  --color-border-dark:    rgba(255, 255, 255, 0.12);
+  --color-border-glow:    rgba(37, 99, 235, 0.3);
+
+  /* Gradients */
+  --gradient-brand:       linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+  --gradient-hero-dark:   linear-gradient(135deg, #070D1E 0%, #0B132B 50%, #101B3B 100%);
+  --gradient-card-dark:   linear-gradient(180deg, rgba(28, 37, 65, 0.7) 0%, rgba(16, 27, 59, 0.95) 100%);
+  --gradient-accent-soft: linear-gradient(135deg, #EFF6FF 0%, #ECFEFF 100%);
+  --gradient-mesh-blue:   radial-gradient(circle at 80% 20%, rgba(37, 99, 235, 0.15) 0%, transparent 60%);
+
+  /* Typography Settings */
+  --font-family-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-body:    'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-mono:    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Font Sizes */
+  --font-size-xs:   0.75rem;     /* 12px */
+  --font-size-sm:   0.875rem;    /* 14px */
+  --font-size-base: 1rem;        /* 16px */
+  --font-size-lg:   1.125rem;    /* 18px */
+  --font-size-xl:   1.25rem;     /* 20px */
+  --font-size-2xl:  1.5rem;      /* 24px */
+  --font-size-3xl:  1.875rem;    /* 30px */
+  --font-size-4xl:  2.25rem;     /* 36px */
+  --font-size-5xl:  3rem;        /* 48px */
+  --font-size-6xl:  3.75rem;     /* 60px */
+
+  /* Line Heights */
+  --line-height-tight:  1.15;
+  --line-height-snug:   1.3;
+  --line-height-normal: 1.55;
+  --line-height-relaxed:1.75;
+
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium:  500;
+  --font-weight-semibold:600;
+  --font-weight-bold:    700;
+  --font-weight-extrabold: 800;
+
+  /* Spacing Scale */
+  --space-1:  0.25rem;  /* 4px */
+  --space-2:  0.5rem;   /* 8px */
+  --space-3:  0.75rem;  /* 12px */
+  --space-4:  1rem;     /* 16px */
+  --space-5:  1.25rem;  /* 20px */
+  --space-6:  1.5rem;   /* 24px */
+  --space-8:  2rem;     /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm:  0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md:  0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg:  0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-xl:  0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+  --shadow-glow-blue: 0 0 25px rgba(37, 99, 235, 0.35);
+  --shadow-glow-cyan: 0 0 25px rgba(6, 182, 212, 0.35);
+
+  /* Transitions */
+  --transition-fast:   150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow:   400ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Layout Containers */
+  --container-max-width: 1240px;
+  --container-narrow: 840px;
+  --container-padding: 1.5rem;
+
+  /* Z-Index Hierarchy */
+  --z-header: 1000;
+  --z-drawer: 1100;
+  --z-modal-backdrop: 1200;
+  --z-modal: 1300;
+  --z-toast: 1400;
+}
