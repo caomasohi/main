@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" width="100%" height="100%">
+  <defs>
+    <clipPath id="masohiEmblemClip">
+      <circle cx="260" cy="260" r="246" />
+    </clipPath>
+  </defs>
+
+  <!-- Clean Base Fill -->
+  <circle cx="260" cy="260" r="246" fill="#FFFFFF" />
+
+  <!-- Four Ascending Growth Steps -->
+  <g clip-path="url(#masohiEmblemClip)">
+    <!-- Step 1: Deep Foundation Navy -->
+    <rect x="0" y="403" width="130" height="200" fill="#132247" />
+
+    <!-- Step 2: Slate Progression Navy -->
+    <rect x="130" y="286" width="130" height="300" fill="#263E66" />
+
+    <!-- Step 3: Deep Advancement Teal -->
+    <rect x="260" y="169" width="130" height="400" fill="#007A78" />
+
+    <!-- Step 4: Full Potential Mint / Emerald Teal -->
+    <rect x="390" y="0" width="130" height="600" fill="#169E8C" />
+
+    <!-- Golden Sun / Excellence Dot -->
+    <circle cx="325" cy="127" r="14" fill="#CBA14B" />
+  </g>
+
+  <!-- Outer Navy Precision Border -->
+  <circle cx="260" cy="260" r="246" fill="none" stroke="#101E39" stroke-width="12" />
+</svg>

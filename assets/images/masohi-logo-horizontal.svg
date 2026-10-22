@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="100%" height="100%">
+  <defs>
+    <clipPath id="hClip">
+      <circle cx="32" cy="32" r="28" />
+    </clipPath>
+  </defs>
+
+  <!-- Emblem -->
+  <g id="hEmblem">
+    <circle cx="32" cy="32" r="28" fill="#FFFFFF" />
+    <g clip-path="url(#hClip)">
+      <!-- 4 bars scaled to 56x56 (from 520x520: scale = 56/520 = 0.10769) -->
+      <!-- Translated so (0,0) of 520 maps to (4, 4) -->
+      <g transform="translate(4, 4) scale(0.107692)">
+        <rect x="0" y="403" width="130" height="200" fill="#132247" />
+        <rect x="130" y="286" width="130" height="300" fill="#263E66" />
+        <rect x="260" y="169" width="130" height="400" fill="#007A78" />
+        <rect x="390" y="0" width="130" height="600" fill="#169E8C" />
+        <circle cx="325" cy="127" r="14" fill="#CBA14B" />
+      </g>
+    </g>
+    <circle cx="32" cy="32" r="28" fill="none" stroke="#101E39" stroke-width="2.2" />
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="72" y="37" 
+        font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="28" 
+        font-weight="800" 
+        letter-spacing="-0.02em" 
+        fill="#101E39">MASOHI</text>
+
+  <text x="73" y="52" 
+        font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="9.5" 
+        font-weight="700" 
+        letter-spacing="0.22em" 
+        fill="#007A78">PRIVATE LIMITED</text>
+</svg>

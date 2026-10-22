@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="100%" height="100%">
+  <defs>
+    <clipPath id="hClipDark">
+      <circle cx="32" cy="32" r="28" />
+    </clipPath>
+  </defs>
+
+  <!-- Emblem -->
+  <g id="hEmblemDark">
+    <circle cx="32" cy="32" r="28" fill="#FFFFFF" />
+    <g clip-path="url(#hClipDark)">
+      <g transform="translate(4, 4) scale(0.107692)">
+        <rect x="0" y="403" width="130" height="200" fill="#132247" />
+        <rect x="130" y="286" width="130" height="300" fill="#263E66" />
+        <rect x="260" y="169" width="130" height="400" fill="#007A78" />
+        <rect x="390" y="0" width="130" height="600" fill="#169E8C" />
+        <circle cx="325" cy="127" r="14" fill="#CBA14B" />
+      </g>
+    </g>
+    <circle cx="32" cy="32" r="28" fill="none" stroke="#FFFFFF" stroke-width="2" />
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="72" y="37" 
+        font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="28" 
+        font-weight="800" 
+        letter-spacing="-0.02em" 
+        fill="#FFFFFF">MASOHI</text>
+
+  <text x="73" y="52" 
+        font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="9.5" 
+        font-weight="700" 
+        letter-spacing="0.22em" 
+        fill="#22D3EE">PRIVATE LIMITED</text>
+</svg>

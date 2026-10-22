@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 710" width="100%" height="100%">
+  <defs>
+    <clipPath id="logoClip">
+      <circle cx="260" cy="260" r="246" />
+    </clipPath>
+  </defs>
+
+  <!-- Circle Emblem -->
+  <g id="emblem">
+    <circle cx="260" cy="260" r="246" fill="#FFFFFF" />
+    <g clip-path="url(#logoClip)">
+      <rect x="0" y="403" width="130" height="200" fill="#132247" />
+      <rect x="130" y="286" width="130" height="300" fill="#263E66" />
+      <rect x="260" y="169" width="130" height="400" fill="#007A78" />
+      <rect x="390" y="0" width="130" height="600" fill="#169E8C" />
+      <circle cx="325" cy="127" r="14" fill="#CBA14B" />
+    </g>
+    <circle cx="260" cy="260" r="246" fill="none" stroke="#101E39" stroke-width="12" />
+  </g>
+
+  <!-- Typography: MASOHI -->
+  <text x="260" y="618" 
+        text-anchor="middle" 
+        font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="64" 
+        font-weight="800" 
+        letter-spacing="0.04em" 
+        fill="#101E39">MASOHI</text>
+
+  <!-- Typography: PRIVATE LIMITED -->
+  <text x="260" y="675" 
+        text-anchor="middle" 
+        font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="24" 
+        font-weight="600" 
+        letter-spacing="0.32em" 
+        fill="#101E39">PRIVATE LIMITED</text>
+</svg>

@@ -45,21 +45,43 @@
   letter-spacing: -0.03em;
   color: var(--color-primary-950);
   text-decoration: none;
+  transition: opacity var(--transition-fast);
 }
 
+.brand-logo:hover {
+  opacity: 0.92;
+}
+
+.brand-logo-symbol {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+  box-shadow: 0 2px 10px rgba(16, 30, 57, 0.12);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.brand-logo:hover .brand-logo-symbol {
+  transform: scale(1.05);
+  box-shadow: 0 4px 14px rgba(16, 30, 57, 0.18);
+}
+
+/* Fallback & legacy element support */
 .logo-symbol {
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-md);
-  background: var(--gradient-brand);
-  display: flex;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: url('../images/masohi-symbol.svg') no-repeat center / contain;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
-  font-weight: 800;
-  font-size: 1.25rem;
-  box-shadow: var(--shadow-glow-blue);
+  color: transparent !important;
+  font-size: 0 !important;
+  box-shadow: 0 2px 10px rgba(16, 30, 57, 0.12);
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .logo-tag {
